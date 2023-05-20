@@ -1,0 +1,7 @@
+### Получить статистику
+GET http://localhost/api/visits/statistics
+Accept: application/json
+
+### Обновление статистики
+POST http://localhost/api/visits/{country_code}
+Accept: application/json
